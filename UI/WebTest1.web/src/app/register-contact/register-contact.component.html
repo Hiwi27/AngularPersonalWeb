@@ -1,0 +1,71 @@
+<div class="container align-items-start m-3 pt-3 rounded">
+    <div class="row">
+        <div class="col-6 main-container rounded">
+            <div class="row m-3">
+                <div class="col-12">
+                    <h2>Register User</h2>
+                </div>
+            </div>
+            <!-- Form Declaration -->
+            <form #contactForm="ngForm" (ngSubmit)="registerContact()">
+                <!-- Name Input -->
+                <div class="row m-3">
+                    <div class="col-12">
+                        <div class="input-group">
+                            <span class="input-group-text" id="basic-addon1">Name</span>
+                            <input type="text" class="form-control" placeholder="Introduce your name"
+                                [(ngModel)]="contact.name" name="name" required aria-label="Name"
+                                aria-describedby="basic-addon1" />
+                        </div>
+                        <!-- Validation Message -->
+                        <div *ngIf="contactForm.submitted && !contactForm.controls['name']?.valid" class="text-danger">
+                            Name is required.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Email Input -->
+                <div class="row m-3">
+                    <div class="col-12">
+                        <div class="input-group">
+                            <span class="input-group-text" id="basic-addon1">E-Mail</span>
+                            <input type="email" class="form-control" placeholder="Introduce your email"
+                                [(ngModel)]="contact.email" name="email" required aria-label="Email"
+                                aria-describedby="basic-addon1" />
+                        </div>
+                        <!-- Validation Message -->
+                        <div *ngIf="contactForm.submitted && !contactForm.controls['email']?.valid" class="text-danger">
+                            Valid email is required.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Phone Input -->
+                <div class="row m-3">
+                    <div class="col-12">
+                        <div class="input-group">
+                            <span class="input-group-text" id="basic-addon1">Phone</span>
+                            <input type="text" class="form-control" placeholder="Introduce your phone"
+                                [(ngModel)]="contact.phone" name="phone" required aria-label="Phone"
+                                aria-describedby="basic-addon1" />
+                        </div>
+                        <!-- Validation Message -->
+                        <div *ngIf="contactForm.submitted && !contactForm.controls['phone']?.valid" class="text-danger">
+                            Phone is required.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Submit Button -->
+                <div class="row m-3 pb-3">
+                    <div class="col-6">
+                        <button type="submit" [disabled]="!contactForm.valid" class="btn btn-success">
+                            Register
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </div>
+</div>

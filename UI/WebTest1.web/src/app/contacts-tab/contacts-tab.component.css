@@ -1,0 +1,29 @@
+.main-container {
+    background-color: gainsboro;
+}
+
+.title-row {
+}
+
+.title-col{
+}
+
+.header-row{
+    background-color: grey;
+}
+
+.header-col{
+    padding: 1rem;
+    margin-left: 3rem;
+    color: white;
+}
+
+.contact-row{
+}
+
+.contact-col{
+    margin-left: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+}

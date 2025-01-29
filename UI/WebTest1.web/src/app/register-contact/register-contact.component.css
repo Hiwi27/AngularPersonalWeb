@@ -1,0 +1,28 @@
+
+/* Styles for the inner container */
+.main-container {
+    background-color: gainsboro;
+    padding-left: 1rem; /* Adjust as needed */
+}
+
+/* Common styles for validation messages */
+.text-danger {
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+}
+
+/* Optional: Customize input group text or form controls if needed */
+.input-group-text {
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 4px;
+}
+
+/* Optional: Button customization */
+.btn-success {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+}

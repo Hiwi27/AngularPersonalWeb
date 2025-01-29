@@ -1,0 +1,36 @@
+<!-- main-container -->
+<div class="main-container">
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">HOME</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" routerLink="RegisterContact">Register</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="ContactsTab">Contacts</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- MAIN CONTENT (ROUTER OUTLET) -->
+  <main class="content">
+    <router-outlet></router-outlet>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer bg-dark text-white text-center py-3">
+    <div class="container">
+      <p class="mb-0">Created by <strong>Daniel Martinez Arroyo</strong></p>
+      <small>© 2025 All rights reserved</small>
+    </div>
+  </footer>
+</div>

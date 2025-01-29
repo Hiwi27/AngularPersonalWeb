@@ -1,0 +1,153 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\WebProjects\\WebTest1\\PersonalWebTest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C2FD05B3-3806-464D-B1E6-A7749EB40CF6}|PersonalWebTest\\PersonalWebTest.csproj|g:\\webprojects\\webtest1\\personalwebtest\\personalwebtest\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2FD05B3-3806-464D-B1E6-A7749EB40CF6}|PersonalWebTest\\PersonalWebTest.csproj|solutionrelative:personalwebtest\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2FD05B3-3806-464D-B1E6-A7749EB40CF6}|PersonalWebTest\\PersonalWebTest.csproj|g:\\webprojects\\webtest1\\personalwebtest\\personalwebtest\\models\\addcontactrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2FD05B3-3806-464D-B1E6-A7749EB40CF6}|PersonalWebTest\\PersonalWebTest.csproj|solutionrelative:personalwebtest\\models\\addcontactrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2FD05B3-3806-464D-B1E6-A7749EB40CF6}|PersonalWebTest\\PersonalWebTest.csproj|g:\\webprojects\\webtest1\\personalwebtest\\personalwebtest\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C2FD05B3-3806-464D-B1E6-A7749EB40CF6}|PersonalWebTest\\PersonalWebTest.csproj|solutionrelative:personalwebtest\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2FD05B3-3806-464D-B1E6-A7749EB40CF6}|PersonalWebTest\\PersonalWebTest.csproj|g:\\webprojects\\webtest1\\personalwebtest\\personalwebtest\\models\\domain\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2FD05B3-3806-464D-B1E6-A7749EB40CF6}|PersonalWebTest\\PersonalWebTest.csproj|solutionrelative:personalwebtest\\models\\domain\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2FD05B3-3806-464D-B1E6-A7749EB40CF6}|PersonalWebTest\\PersonalWebTest.csproj|g:\\webprojects\\webtest1\\personalwebtest\\personalwebtest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2FD05B3-3806-464D-B1E6-A7749EB40CF6}|PersonalWebTest\\PersonalWebTest.csproj|solutionrelative:personalwebtest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2FD05B3-3806-464D-B1E6-A7749EB40CF6}|PersonalWebTest\\PersonalWebTest.csproj|g:\\webprojects\\webtest1\\personalwebtest\\personalwebtest\\data\\contactsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2FD05B3-3806-464D-B1E6-A7749EB40CF6}|PersonalWebTest\\PersonalWebTest.csproj|solutionrelative:personalwebtest\\data\\contactsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2FD05B3-3806-464D-B1E6-A7749EB40CF6}|PersonalWebTest\\PersonalWebTest.csproj|g:\\webprojects\\webtest1\\personalwebtest\\personalwebtest\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2FD05B3-3806-464D-B1E6-A7749EB40CF6}|PersonalWebTest\\PersonalWebTest.csproj|solutionrelative:personalwebtest\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2FD05B3-3806-464D-B1E6-A7749EB40CF6}|PersonalWebTest\\PersonalWebTest.csproj|g:\\webprojects\\webtest1\\personalwebtest\\personalwebtest\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C2FD05B3-3806-464D-B1E6-A7749EB40CF6}|PersonalWebTest\\PersonalWebTest.csproj|solutionrelative:personalwebtest\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "G:\\WebProjects\\WebTest1\\PersonalWebTest\\PersonalWebTest\\appsettings.json",
+              "RelativeDocumentMoniker": "PersonalWebTest\\appsettings.json",
+              "ToolTip": "G:\\WebProjects\\WebTest1\\PersonalWebTest\\PersonalWebTest\\appsettings.json",
+              "RelativeToolTip": "PersonalWebTest\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-10T17:34:37.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddContactRequestDTO.cs",
+              "DocumentMoniker": "G:\\WebProjects\\WebTest1\\PersonalWebTest\\PersonalWebTest\\Models\\AddContactRequestDTO.cs",
+              "RelativeDocumentMoniker": "PersonalWebTest\\Models\\AddContactRequestDTO.cs",
+              "ToolTip": "G:\\WebProjects\\WebTest1\\PersonalWebTest\\PersonalWebTest\\Models\\AddContactRequestDTO.cs",
+              "RelativeToolTip": "PersonalWebTest\\Models\\AddContactRequestDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T16:09:10.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ContactsController.cs",
+              "DocumentMoniker": "G:\\WebProjects\\WebTest1\\PersonalWebTest\\PersonalWebTest\\Controllers\\ContactsController.cs",
+              "RelativeDocumentMoniker": "PersonalWebTest\\Controllers\\ContactsController.cs",
+              "ToolTip": "G:\\WebProjects\\WebTest1\\PersonalWebTest\\PersonalWebTest\\Controllers\\ContactsController.cs",
+              "RelativeToolTip": "PersonalWebTest\\Controllers\\ContactsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T15:58:51.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "G:\\WebProjects\\WebTest1\\PersonalWebTest\\PersonalWebTest\\Program.cs",
+              "RelativeDocumentMoniker": "PersonalWebTest\\Program.cs",
+              "ToolTip": "G:\\WebProjects\\WebTest1\\PersonalWebTest\\PersonalWebTest\\Program.cs",
+              "RelativeToolTip": "PersonalWebTest\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T15:50:48.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ContactsDbContext.cs",
+              "DocumentMoniker": "G:\\WebProjects\\WebTest1\\PersonalWebTest\\PersonalWebTest\\Data\\ContactsDbContext.cs",
+              "RelativeDocumentMoniker": "PersonalWebTest\\Data\\ContactsDbContext.cs",
+              "ToolTip": "G:\\WebProjects\\WebTest1\\PersonalWebTest\\PersonalWebTest\\Data\\ContactsDbContext.cs",
+              "RelativeToolTip": "PersonalWebTest\\Data\\ContactsDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T15:46:24.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Contact.cs",
+              "DocumentMoniker": "G:\\WebProjects\\WebTest1\\PersonalWebTest\\PersonalWebTest\\Models\\Domain\\Contact.cs",
+              "RelativeDocumentMoniker": "PersonalWebTest\\Models\\Domain\\Contact.cs",
+              "ToolTip": "G:\\WebProjects\\WebTest1\\PersonalWebTest\\PersonalWebTest\\Models\\Domain\\Contact.cs",
+              "RelativeToolTip": "PersonalWebTest\\Models\\Domain\\Contact.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T15:43:31.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "G:\\WebProjects\\WebTest1\\PersonalWebTest\\PersonalWebTest\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "PersonalWebTest\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "G:\\WebProjects\\WebTest1\\PersonalWebTest\\PersonalWebTest\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "PersonalWebTest\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T15:32:25.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "G:\\WebProjects\\WebTest1\\PersonalWebTest\\PersonalWebTest\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "PersonalWebTest\\Properties\\launchSettings.json",
+              "ToolTip": "G:\\WebProjects\\WebTest1\\PersonalWebTest\\PersonalWebTest\\Properties\\launchSettings.json",
+              "RelativeToolTip": "PersonalWebTest\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-10T15:31:21.015Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

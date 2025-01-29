@@ -1,0 +1,46 @@
+/* Ensure the page and body fill the entire height of the screen */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* The main-container should take full height of the page */
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Full viewport height */
+    background-color: #343a40;
+  }
+  
+  /* Content should grow and fill available space */
+  .content {
+    flex-grow: 1; /* Ensures that content area fills remaining space */
+  }
+  
+  /* Footer styling */
+  .footer {
+    background-color: #343a40; /* Dark background */
+    color: white; /* White text */
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+  }
+  
+  /* Optional: Style for small text in the footer */
+  .footer p, .footer small {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .footer strong {
+    font-size: 16px;
+  }
+  
+  /* Optional: Make sure the footer does not overlap on smaller screens */
+  @media (max-width: 768px) {
+    .footer {
+      padding: 15px;
+    }
+  }
+  
