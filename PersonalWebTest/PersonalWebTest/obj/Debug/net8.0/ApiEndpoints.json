@@ -1,8 +1,8 @@
 [
   {
-    "ContainingType": "PersonalWebTest.Controllers.ContactsController",
+    "ContainingType": "PersonalWebTest.Controllers.UsersController",
     "Method": "GetAllContacts",
-    "RelativePath": "api/Contacts",
+    "RelativePath": "api/Users",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -10,16 +10,16 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "PersonalWebTest.Controllers.ContactsController",
+    "ContainingType": "PersonalWebTest.Controllers.UsersController",
     "Method": "AddContact",
-    "RelativePath": "api/Contacts",
+    "RelativePath": "api/Users",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
         "Name": "_request",
-        "Type": "PersonalWebTest.Models.AddContactRequestDTO",
+        "Type": "PersonalWebTest.Models.AddUserRequestDTO",
         "IsRequired": true
       }
     ],

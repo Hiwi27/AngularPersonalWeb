@@ -5,10 +5,10 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/Contacts": {
+    "/api/Users": {
       "get": {
         "tags": [
-          "Contacts"
+          "Users"
         ],
         "responses": {
           "200": {
@@ -18,23 +18,23 @@
       },
       "post": {
         "tags": [
-          "Contacts"
+          "Users"
         ],
         "requestBody": {
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/AddContactRequestDTO"
+                "$ref": "#/components/schemas/AddUserRequestDTO"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/AddContactRequestDTO"
+                "$ref": "#/components/schemas/AddUserRequestDTO"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/AddContactRequestDTO"
+                "$ref": "#/components/schemas/AddUserRequestDTO"
               }
             }
           }
@@ -88,7 +88,7 @@
   },
   "components": {
     "schemas": {
-      "AddContactRequestDTO": {
+      "AddUserRequestDTO": {
         "type": "object",
         "properties": {
           "name": {
@@ -96,6 +96,10 @@
             "nullable": true
           },
           "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "pasword": {
             "type": "string",
             "nullable": true
           },
