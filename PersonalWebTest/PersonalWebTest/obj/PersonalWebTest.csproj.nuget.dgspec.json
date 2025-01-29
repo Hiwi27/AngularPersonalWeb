@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\WebProjects\\WebTest1\\PersonalWebTest\\PersonalWebTest\\PersonalWebTest.csproj": {}
+    "G:\\GitHub\\AngularPersonalWeb\\PersonalWebTest\\PersonalWebTest\\PersonalWebTest.csproj": {}
   },
   "projects": {
-    "G:\\WebProjects\\WebTest1\\PersonalWebTest\\PersonalWebTest\\PersonalWebTest.csproj": {
+    "G:\\GitHub\\AngularPersonalWeb\\PersonalWebTest\\PersonalWebTest\\PersonalWebTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\WebProjects\\WebTest1\\PersonalWebTest\\PersonalWebTest\\PersonalWebTest.csproj",
+        "projectUniqueName": "G:\\GitHub\\AngularPersonalWeb\\PersonalWebTest\\PersonalWebTest\\PersonalWebTest.csproj",
         "projectName": "PersonalWebTest",
-        "projectPath": "G:\\WebProjects\\WebTest1\\PersonalWebTest\\PersonalWebTest\\PersonalWebTest.csproj",
+        "projectPath": "G:\\GitHub\\AngularPersonalWeb\\PersonalWebTest\\PersonalWebTest\\PersonalWebTest.csproj",
         "packagesPath": "C:\\Users\\Dani\\.nuget\\packages\\",
-        "outputPath": "G:\\WebProjects\\WebTest1\\PersonalWebTest\\PersonalWebTest\\obj\\",
+        "outputPath": "G:\\GitHub\\AngularPersonalWeb\\PersonalWebTest\\PersonalWebTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,7 +50,15 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[9.0.0, )"
             },
@@ -58,15 +66,15 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.11, )"
+              "version": "[9.0.0, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[8.0.7, )"
+              "version": "[9.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.6.2, )"
+              "version": "[7.2.0, )"
             }
           },
           "imports": [

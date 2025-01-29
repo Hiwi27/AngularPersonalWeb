@@ -12,7 +12,11 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 //Conection to Database with Database Context
-builder.Services.AddDbContext<ContactsDbContext>(options => options.UseInMemoryDatabase("ContactsDb"));
+//TestConnection
+//builder.Services.AddDbContext<ContactsDbContext>(options => options.UseInMemoryDatabase("ContactsDb"));
+
+//DB Connection
+builder.Services.AddDbContext<PersonalWebDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 var app = builder.Build();
 
